@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+
+<launch>
+
+ 
+  <arg name="map_file" default="$(find husky_navigation)/maps/my_map.yaml"/>
+  <node name="map_server" pkg="map_server" type="map_server" args="$(arg map_file)" />
+
+
+  <include file="$(find husky_navigation)/launch/amcl.launch" />
+
+  
+  <include file="$(find my_move_base_launcher)/launch/baseline_launch2.launch" />
+
+</launch>
+
