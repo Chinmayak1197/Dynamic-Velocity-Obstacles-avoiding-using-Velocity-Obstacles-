@@ -1,28 +1,28 @@
 **Motion Planning in Dynamic Environment**  
 
-Final code for Dynamic velocity obstacle for Motion Planning.  To run the code, please gitclone the repository.  
-
-To run the DWA planner on Gazebo, ros-launch baseline\_launch1.launch. Choose the husky robot on any of the inbuilt Turtle-Bot maps or other worlds.  
-
-To run the Python/Pygame code, download the VO/APF folder. Then run the python code on your preferred IDE. 
+- Final code for Dynamic velocity obstacle for Motion Planning.  To run the code, please gitclone the repository.  
+- To run the DWA planner on Gazebo, ros-launch baseline\_launch1.launch. Choose the husky robot on any of the inbuilt Turtle-Bot maps or other worlds.  
+- To run the Python/Pygame code, download the VO/APF folder. Then run the python code on your preferred IDE. 
 
 **Artificial Potential Field:** 
 
-![](Aspose.Words.ead9c7f1-6b4c-4a99-8d44-9ed0740cf1bb.001.png)
-
+Robot moving in an hospital lobby. 
+<br />
+<a href="url"><img src="https://github.com/Chinmayak1197/Dynamic-Velocity-Obstacles-avoiding-using-Velocity-Obstacles-/blob/main/Videos%20and%20Results/APF_Python.gif" height="250" width="400" ></a>
+<br />
 **Limitation of Artificial Potential Field:** 
 
-\-  Stuck at Local Minima.**  
+-  Stuck at Local Minima.
 
-![](Aspose.Words.ead9c7f1-6b4c-4a99-8d44-9ed0740cf1bb.002.png)
-
+<a href="url"><img src="https://github.com/Chinmayak1197/Dynamic-Velocity-Obstacles-avoiding-using-Velocity-Obstacles-/blob/main/Videos%20and%20Results/APF_Local_Minima.gif" height="250" width="400" ></a>
+<br />
 **Generalized Velocity Obstacle:**  
 
-![](Aspose.Words.ead9c7f1-6b4c-4a99-8d44-9ed0740cf1bb.003.jpeg)
+Robot moving in the dynamic environment, where red dot represents the robot and the white dot represents the dynamic obstacles. 
 
+<a href="url"><img src="https://github.com/Chinmayak1197/Dynamic-Velocity-Obstacles-avoiding-using-Velocity-Obstacles-/blob/main/Videos%20and%20Results/VO_2.gif" height="250" width="400" ></a>
+<br />
 **References** : 
-
-Some of the references we have used are: 
 
 - [https://github.com/AtsushiSakai/PythonRobotics/blob/master/PathPlanning/PotentialFi eldPlanning/potential_field_planning.py ](https://github.com/AtsushiSakai/PythonRobotics/blob/master/PathPlanning/PotentialFieldPlanning/potential_field_planning.py) 
 - [https://stackoverflow.com/questions/30015787/random-movement-pygame  ](https://stackoverflow.com/questions/30015787/random-movement-pygame)
