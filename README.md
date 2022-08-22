@@ -20,7 +20,7 @@ Robot moving in an hospital lobby.
 
 Robot moving in the dynamic environment, where red dot represents the robot and the white dot represents the dynamic obstacles. 
 
-<a href="url"><img src="https://github.com/Chinmayak1197/Dynamic-Velocity-Obstacles-avoiding-using-Velocity-Obstacles-/blob/main/Videos%20and%20Results/VO_2.gif" height="250" width="400" ></a>
+<a href="url"><img src="https://github.com/Chinmayak1197/Dynamic-Velocity-Obstacles-avoiding-using-Velocity-Obstacles-/blob/main/Videos%20and%20Results/VO_2%20(1).gif" height="250" width="400" ></a>
 <br />
 **References** : 
 
